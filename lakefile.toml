@@ -1,0 +1,28 @@
+name = "epistemic_self_knowledge"
+version = "0.1.0"
+defaultTargets = ["EpistemicSelfKnowledge", "EpistemicCeiling", "EpistemicCoverageMeasure", "EpistemicModal", "EpistemicAuditBridge"]
+
+[[lean_lib]]
+name = "EpistemicSelfKnowledge"
+srcDir = "lean"
+
+[[lean_lib]]
+name = "EpistemicCeiling"
+srcDir = "lean"
+
+[[lean_lib]]
+name = "EpistemicCoverageMeasure"
+srcDir = "lean"
+
+[[lean_lib]]
+name = "EpistemicModal"
+srcDir = "lean"
+
+[[lean_lib]]
+name = "EpistemicAuditBridge"
+srcDir = "lean"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.19.0"
