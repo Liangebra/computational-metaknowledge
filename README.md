@@ -2,7 +2,6 @@
 
 **Coverage and Limits of Computational Metaknowledge**
 
-Jinghao Liang · Tianjin University of Finance and Economics  
 AI × Epistemics Research Sprint (November 2026)
 
 This repository accompanies the research paper *Certifying What an Agent Can Know: Coverage and Limits of Computational Metaknowledge*. It supplies the Lean formalizations, their pinned dependencies, a small finite example checker, and the research report.
